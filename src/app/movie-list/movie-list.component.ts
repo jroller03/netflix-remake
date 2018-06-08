@@ -10,7 +10,7 @@ export class MovieListComponent {
   @Input() childMovieList: Movie[];
   @Output() clickSender = new EventEmitter();
 
-  tasks: Movie[] = [
+  movies: Movie[] = [
     new Movie('Solo: A Star Wars Story', 'PG-13', 'Action/Thriller/Fantasy', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtLWM5o-y-72inQkOQuCFCM2Yx_kvnOLxSGFdHdQCnb3Wls_3E1NMlCQ'),
     new Movie('Ready Player One', 'PG-13', 'Action/Thriller/Fantasy', 'http://t0.gstatic.com/images?q=tbn:ANd9GcQsdKo9kNvc88uK7_G6cxhPQcqd2pjP5W__NKQ8HNU0-gWn9-fa'),
     new Movie('DeadPool 2', 'R', 'Comedy/Action/Thriller', 'http://t2.gstatic.com/images?q=tbn:ANd9GcTkbXNbwGV0npOKCGSndE-YCGpRb2xQDRV8VyMfGlsEfej-sVMv'),
