@@ -30,7 +30,7 @@ body {
     transition: all 0.2s linear;
 }
 .search-box input {
-    color: #fff;
+    color: white;
     padding-left: 100px;
     background: #546e7a;
     border:0;
@@ -40,7 +40,7 @@ body {
 .search-box input:focus {
     background: #fff !important;
     outline: 0;
-    color: #333;
+    color: white;
 }
 .search-box input:focus + .glyphicon:before {
     color: #333;
