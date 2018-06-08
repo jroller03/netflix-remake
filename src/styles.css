@@ -2,5 +2,59 @@
 body {
   background-color: black;
   color: white;
+
+}
+
+.navigation-netflix {
   background-image: url(http://s3-us-west-2.amazonaws.com/techvibes/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg);
+  background-size: cover;
+}
+
+.search-box {
+    position: relative;
+}
+.search-box .glyphicon {
+    position: absolute;
+    padding: 100px;
+    pointer-events: none;
+    left: 150px;
+    top: 0px;
+}
+.search-box .glyphicon:before {
+    color: white;
+    transition: all 0.2s linear;
+}
+.search-box input {
+    color: #fff;
+    padding-left: 100px;
+    background: #546e7a;
+    border:0;
+    outline: none !important;
+    transition: all 0.2s linear;
+}
+.search-box input:focus {
+    background: #fff !important;
+    outline: 0;
+    color: #333;
+}
+.search-box input:focus + .glyphicon:before {
+    color: #333;
+}
+.search-box input:hover {
+    background: #78909c;
+}
+
+footer {
+  position: fixed;
+  bottom:0;
+  left: 0;
+  right: 0;
+  font-size: 60px;
+  padding-top: 14px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 12px;
+  display: block;
+  font-size: 12px;
+
 }
