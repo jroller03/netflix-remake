@@ -4,6 +4,7 @@ import { AppComponent } from './app.component';
 import { MovieListComponent } from './movie-list/movie-list.component';
 import { MovieSearchComponent } from './movie-search/movie-search.component';
 import { TvshowListComponent } from './tvshow-list/tvshow-list.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { TvshowListComponent } from './tvshow-list/tvshow-list.component';
     AppComponent,
     MovieListComponent,
     MovieSearchComponent,
-    TvshowListComponent
+    TvshowListComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule
