@@ -5,6 +5,7 @@ import { MovieListComponent } from './movie-list/movie-list.component';
 import { MovieSearchComponent } from './movie-search/movie-search.component';
 import { TvshowListComponent } from './tvshow-list/tvshow-list.component';
 import { LoginComponent } from './login/login.component';
+// import { CompletenessPipe } from './completeness.pipe';
 
 
 @NgModule({
@@ -13,6 +14,7 @@ import { LoginComponent } from './login/login.component';
     MovieListComponent,
     MovieSearchComponent,
     TvshowListComponent,
+    // CompletenessPipe,
     LoginComponent
   ],
   imports: [
