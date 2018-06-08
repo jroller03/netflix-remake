@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
+By: Justin Roller
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -25,3 +27,19 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## License
+
+Licensed through the MIT open resource agreement
+
+Copyright (c) 2018 Justin Roller
+
+## Support and contact details
+
+Contact justinrllr@yahoo.com with any questions or comments
+
+## Technologies Used
+
+JavaScript
+jQuery
+Angular
