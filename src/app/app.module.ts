@@ -5,6 +5,9 @@ import { MovieListComponent } from './movie-list/movie-list.component';
 import { MovieSearchComponent } from './movie-search/movie-search.component';
 import { TvshowListComponent } from './tvshow-list/tvshow-list.component';
 import { LoginComponent } from './login/login.component';
+import { WelcomeComponent } from './welcome/welcome.component';
+import { MovieDetailComponent } from './movie-detail/movie-detail.component';
+import { AboutComponent } from './about/about.component';
 // import { CompletenessPipe } from './completeness.pipe';
 
 
@@ -15,7 +18,10 @@ import { LoginComponent } from './login/login.component';
     MovieSearchComponent,
     TvshowListComponent,
     // CompletenessPipe,
-    LoginComponent
+    LoginComponent,
+    WelcomeComponent,
+    MovieDetailComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule
