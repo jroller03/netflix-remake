@@ -43,3 +43,7 @@ Contact justinrllr@yahoo.com with any questions or comments
 JavaScript
 jQuery
 Angular
+
+## Features
+
+My new website of netflix will have a sign in page, detailed list of movies and tv shows. Also will have a detailed netflix page remix where you can add and delete movies yourself that you would like to see.
