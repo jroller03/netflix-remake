@@ -8,7 +8,17 @@ import { LoginComponent } from './login/login.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { MovieDetailComponent } from './movie-detail/movie-detail.component';
 import { AboutComponent } from './about/about.component';
-// import { CompletenessPipe } from './completeness.pipe';
+import { masterFirebaseConfig } from './api-keys';
+import { AngularFireModule } from 'angularfire2';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
+
+
+export const firebaseConfig = {
+  apiKey: masterFirebaseConfig.apiKey,
+  authDomain: masterFirebaseConfig.authDomain,
+  databaseURL: masterFirebaseConfig.databaseURL,
+  storageBucket: masterFirebaseConfig.storageBucket
+};
 
 
 @NgModule({
@@ -17,7 +27,6 @@ import { AboutComponent } from './about/about.component';
     MovieListComponent,
     MovieSearchComponent,
     TvshowListComponent,
-    // CompletenessPipe,
     LoginComponent,
     WelcomeComponent,
     MovieDetailComponent,
