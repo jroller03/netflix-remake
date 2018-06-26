@@ -11,6 +11,8 @@ import { AboutComponent } from './about/about.component';
 import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
+import { routing } from './app.routing';
+import { HttpModule } from '@angular/http';
 
 
 export const firebaseConfig = {
@@ -33,8 +35,13 @@ export const firebaseConfig = {
     AboutComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpModule,
+    routing,
+    AngularFireModule.initializeApp(firebaseConfig),
+    AngularFireDatabaseModule
   ],
+
   providers: [],
   bootstrap: [AppComponent]
 })

@@ -9,7 +9,7 @@ import { TvShow } from './models/tvshows.model';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'netflix-remake';
 
   masterMovieList: Movie[] = [
     new Movie('Solo: A Star Wars Story', 'PG-13', 'Action/Thriller/Fantasy', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtLWM5o-y-72inQkOQuCFCM2Yx_kvnOLxSGFdHdQCnb3Wls_3E1NMlCQ'),
