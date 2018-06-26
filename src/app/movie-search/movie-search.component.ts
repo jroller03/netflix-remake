@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FirebaseListObservable } from 'angularfire2/database';
 
 @Component({
   selector: 'app-movie-search',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./movie-search.component.css']
 })
 export class MovieSearchComponent implements OnInit {
+  movies: FirebaseListObservable<any[]>;
 
   constructor() { }
 

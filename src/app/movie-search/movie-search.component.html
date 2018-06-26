@@ -1,3 +1,7 @@
-<p>
-  movie-search works!
-</p>
+<h2>More Movies</h2>
+
+<div *ngFor="let movie of movies | async" class="panel panel-default">
+  <div class="panel-body">
+    <h3><em>{{movies.title}}</em> this movie is about {{movies.description}}</h3>
+  </div>
+</div>

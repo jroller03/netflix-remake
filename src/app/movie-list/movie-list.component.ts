@@ -1,5 +1,6 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { Movie } from '../models/movies.model';
+import { FirebaseListObservable } from 'angularfire2/database';
 
 @Component({
   selector: 'app-movie-list',
